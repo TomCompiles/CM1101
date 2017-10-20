@@ -201,7 +201,7 @@ def print_menu(exits, room_items, inv_items):
     # COMPLETE ME!
     #
     for item in room_items:
-        print("TAKE " + item["id"].upper() + " to take" + item["name"] + ".")
+        print("TAKE " + item["id"].upper() + " to take " + item["name"] + ".")
     for item in inv_items:
         print("DROP " + item["id"].upper() + " to drop your " + item["name"] + ".")
     
